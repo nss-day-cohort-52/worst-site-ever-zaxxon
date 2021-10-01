@@ -1,0 +1,85 @@
+
+
+
+    .lauren{ 
+        border: 1px dotted red;
+        
+    
+        
+        
+    
+    }
+    
+    .movie{
+        display:flex;
+        background-color: tomato;
+        
+        
+    }
+    
+    .movie__images{
+        background-color: rgb(59, 15, 10);
+        animation:blinkingText 1.2s infinite;
+         border:yellowgreen dotted 5px}
+    
+     .movie__images2{
+            background-color: rgb(231, 247, 20);
+            animation:blinkingText 1.2s infinite;
+            border:magenta dotted 5px}
+    
+    img{border-radius: 50%
+        
+    
+    }
+        
+    
+    
+    .movie__hairstyles{
+        background-color: seagreen;
+    }
+    
+    .movie__description{
+        background-image: ;
+        font-size: large;
+        animation:blinkingText 5s infinite;
+        font-family: 'Are You Serious', cursive;
+        
+    }
+    
+    @keyframes blinkingText{
+        0%{     color: rgb(200, 233, 80);    }
+        49%{    color: rgb(28, 31, 207); }
+        60%{    color: blueviolet; }
+        99%{    color: green;  }
+        100%{   color: rgb(238, 20, 20);    }
+    }
+    @keyframes blinkingText2{
+        0%{     color: rgb(240, 241, 234);    }
+        49%{    color: rgb(146, 7, 72); }
+      
+    }
+    
+    h2{animation:blinkingText2 .2s infinite;
+        
+        font-family: 'Press Start 2P', cursive;
+    
+    }
+    
+    
+    
+    }
+    
+    .aside{
+        background-color: tan;
+        background-image: url("https://m.media-amazon.com/images/I/61K9E8XNQuL._SY450_.jpg")
+        
+        
+    }
+    
+    .header{animation:blinkingText2 .2s infinite;
+      font-family: 'Press Start 2P', cursive;
+      
+    
+      
+    }
+    
