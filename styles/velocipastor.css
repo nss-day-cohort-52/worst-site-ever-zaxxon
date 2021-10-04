@@ -1,0 +1,118 @@
+.velocipastor {
+    background-image: url("https://thumbs.dreamstime.com/z/big-red-fire-flames-overlay-particles-texture-perfect-smoke-background-189505064.jpg");
+    /* background-color: #ad0d0d; */
+    background-position: inherit;
+    flex: 2;
+}
+
+img.dino-fight {
+    height: 300px;
+}
+
+img.dino-poster {
+    height: 300px;
+    width: 500px;
+}
+
+.dinoTagline {
+    text-align: center;
+}
+
+.melissa {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:lightblue;
+}
+
+.empty {
+    flex: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+}
+
+.dino-review {
+    animation: colorFade 1s infinite;
+}
+
+@keyframes colorFade{
+    from {color: black;}
+    to {color: rgb(182, 17, 17);}
+}
+
+.blinking {
+    animation:rainbowBlinkingText 0.5s infinite;
+}
+@keyframes rainbowBlinkingText{
+    20%{     color: rgb(139, 11, 11);    }
+    40%{    color: rgb(50, 248, 93); }
+    60%{    color: rgb(248, 50, 205); }
+    80%{    color: rgb(50, 225, 248);  }
+    100%{   color: rgb(253, 234, 66);    }
+}
+
+.shaking {
+    animation: shake 1.5s infinite;   
+    color:rgb(50, 248, 93);
+    font-family: fantasy;
+    font-size: 36px;
+}
+
+@keyframes shake{
+    0%{
+      transform: translateX(100px)
+    }
+    25%{
+      transform: translateX(75px);
+    }
+      
+    50%{
+      transform: translateX(-75px);
+    }
+    100%{
+      transform: translateX(100px);
+    }
+}
+
+.dino-reviews {
+    display: flex;
+    flex-wrap: wrap;
+    color: orangered;
+    text-align-last: right;
+}
+
+.shimmer {
+    animation: shimmer 5s infinite;
+    text-align: center;
+    color: rgba(255,255,255,0.1);
+    background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    -webkit-background-size: 125px 100%;
+    -moz-background-size: 125px 100%;
+    background-size: 125px 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-animation-name: shimmer;
+    -moz-animation-name: shimmer;
+    animation-name: shimmer;
+    -webkit-animation-duration: 10s;
+    -moz-animation-duration: 2s;
+    animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: #222;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: top left;
+    }
+    100% {
+        background-position: top right;
+    }
+}
+
