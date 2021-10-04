@@ -93,7 +93,7 @@
     aspect-ratio: auto 479 / 315;
     height: 750px; 
 }
-@keyframes blinkingText{
+@keyframes blinkText{
     20%{     color: rgb(20, 4, 253);    }
     4%{    color: rgb(248, 8, 8); }
     60%{    color: yellow; }
@@ -109,7 +109,7 @@
     flex-direction:column;   
 }
 
-@keyframes blinkingText{
+@keyframes blinkText{
     20%{     color: rgb(20, 4, 253);    }
     4%{    color: rgb(248, 8, 8); }
     60%{    color: yellow; }
