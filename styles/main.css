@@ -1,6 +1,7 @@
 
 
 
+
     .lauren{ 
         display: flex;
         flex-wrap: nowrap;
@@ -79,3 +80,44 @@
         0%{     color: rgb(240, 241, 234);    }
         49%{    color: rgb(146, 7, 72); }
     
+
+.hero{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+}
+.pic__img{
+    width: 750px;
+    aspect-ratio: auto 479 / 315;
+    height: 750px; 
+}
+@keyframes blinkingText{
+    20%{     color: rgb(20, 4, 253);    }
+    4%{    color: rgb(248, 8, 8); }
+    60%{    color: yellow; }
+    80%{    color:purple;  }
+    90%{   color: rgb(6, 243, 85);    }
+}
+.hero{
+        animation:blinkingText 2.5s infinite;
+        animation-fill-mode: forwards;
+    }
+.ferris{
+    display: flex;
+    flex-direction:column;   
+}
+
+@keyframes blinkingText{
+    20%{     color: rgb(20, 4, 253);    }
+    4%{    color: rgb(248, 8, 8); }
+    60%{    color: yellow; }
+    80%{    color:purple;  }
+    90%{   color: rgb(6, 243, 85);    }
+}
+.ferris{
+        animation:blinkingText 2.5s infinite;
+        animation-fill-mode: forwards;
+    }
+ new-ld_section3 main 
