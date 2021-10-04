@@ -35,13 +35,7 @@
             animation:blinkingText 1.2s infinite;
             border:magenta dotted 5px}
     
-    img{border-radius: 50%;
-        animation: fadeIn .2s;
-        -webkit-animation: fadeIn 5s;
-        -moz-animation: fadeIn 5s;
-        -o-animation: fadeIn 5s;
-        -ms-animation: fadeIn 5s;
-       }
+ 
 
        @keyframes fadeIn {
         0% {opacity:0;}
