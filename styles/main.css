@@ -51,7 +51,7 @@
       }
         
     .movie__description{
-        background-image: ;
+        /* background-image: ; */
         font-size: x-large;
         animation:blinkingText .5s infinite;
         font-family: 'Ephesis', cursive;
@@ -79,7 +79,7 @@
     @keyframes blinkingText2{
         0%{     color: rgb(240, 241, 234);    }
         49%{    color: rgb(146, 7, 72); }
-    
+    }
 
 .hero{
         position: absolute;
@@ -120,4 +120,3 @@
         animation:blinkingText 2.5s infinite;
         animation-fill-mode: forwards;
     }
- new-ld_section3 main 
